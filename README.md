@@ -47,6 +47,8 @@ A modern React-based web application that uses Google's Gemini AI to analyze pre
 - Text-to-sign language conversion capabilities
 - Accessible design for diverse user needs
 
+  ![AI Results](https://github.com/Jyothish-B/MedAi/blob/main/AA/public/Screenshot%202025-08-08%20113950.png)
+
 ### 🎨 **Modern User Experience**
 - Built with Tailwind CSS for clean, professional styling
 - Smooth animations and transitions
