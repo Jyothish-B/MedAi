@@ -1,0 +1,7 @@
+{
+  "name": "MedAI: Prescription Assistant",
+  "description": "An AI-powered assistant to help you understand and translate medical prescriptions safely and accurately. Upload an image of a prescription and ask for an explanation or translation.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

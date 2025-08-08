@@ -1,0 +1,89 @@
+# MedAI Prescription Assistant - Requirements
+
+## System Requirements
+Node.js >= 16.0.0
+npm >= 8.0.0
+Modern web browser (Chrome 90+, Firefox 88+, Safari 14+, Edge 90+)
+
+
+
+## Node.js Dependencies (from package.json)
+
+### Production Dependencies
+@google/genai@^1.13.0                 # Google Gemini AI SDK
+react@^19.1.1                         # React framework
+react-dom@^19.1.1                     # React DOM rendering
+react-router-dom@^7.7.1               # Client-side routing
+react-speech-kit@^3.0.1               # Speech recognition functionality
+
+### Development Dependencies
+@types/node@^22.14.0                  # Node.js type definitions
+@types/react@^19.1.9                  # React type definitions
+@types/react-dom@^19.1.7              # React DOM type definitions
+@types/react-router-dom@^5.3.3        # React Router type definitions
+@vitejs/plugin-react@^5.0.0           # Vite React plugin
+autoprefixer@^10.4.21                 # CSS autoprefixer
+postcss@^8.5.6                        # CSS post-processor
+tailwindcss@^3.4.17                   # Utility-first CSS framework
+typescript@~5.8.2                     # TypeScript compiler
+vite@^6.2.0                          # Build tool and dev server
+
+## Installation Commands
+# Install Node.js dependencies
+npm install
+
+# Development server
+npm run dev
+
+# Production build
+npm run build
+
+# Preview production build
+npm run preview
+
+## API Requirements
+- Google Gemini API key (obtain from Google AI Studio)
+- Internet connection for AI analysis
+- Modern browser with JavaScript enabled
+
+## Optional Tools for Development
+- VS Code or similar code editor
+- Git for version control
+- Chrome DevTools for debugging
+
+## Browser Compatibility
+- Chrome 90+
+- Firefox 88+
+- Safari 14+
+- Edge 90+
+- Mobile browsers (iOS Safari 14+, Chrome Mobile 90+)
+
+## Performance Requirements
+- Minimum 2GB RAM
+- 1GB free disk space
+- Stable internet connection (for AI API calls)
+
+## Security Notes
+- Keep API keys secure and never commit to version control
+- Use environment variables for sensitive data
+- Ensure HTTPS in production deployment
+
+## Deployment Platforms Supported
+- Vercel
+- Netlify
+- GitHub Pages
+- AWS S3 + CloudFront
+- Firebase Hosting
+- Any static hosting service
+
+## File Structure Dependencies
+public/asl_images/                    # ASL sign language images
+├── a.jpeg through z.jpeg             # Individual letter signs
+├── 0.jpeg through 9.jpeg             # Number signs
+└── asldata/                          # Additional ASL image variants
+
+## Additional Features Requirements
+- Microphone access (for speech recognition)
+- Camera access (for image capture - if implemented)
+- File upload capability
+- Local storage (for user preferences)

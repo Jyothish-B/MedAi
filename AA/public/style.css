@@ -1,0 +1,50 @@
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  padding: 32px;
+  text-align: center;
+}
+.text-to-sign-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#text-input {
+  font-size: 1.2em;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #bfc4d1;
+  width: 80%;
+  max-width: 350px;
+}
+button {
+  font-size: 1em;
+  padding: 8px 20px;
+  border-radius: 6px;
+  border: none;
+  background: #2a3a5e;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.sign-animation {
+  margin-top: 32px;
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  min-width: 120px;
+}
+.sign-animation img {
+  width: 120px;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 2px solid #e3eafc;
+  background: #f4f6fb;
+}

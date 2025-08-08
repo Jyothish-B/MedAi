@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Text to Sign Language 3D Animation</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/three@0.153.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.153.0/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="text-to-sign-section">
+      <h1>Text to Sign Language 3D Animation</h1>
+      <input type="text" id="text-input" placeholder="Enter text..." maxlength="30" />
+  <button onclick="startSignAnimation()">Animate</button>
+  <div id="sign-animation" class="sign-animation"></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
