@@ -6,6 +6,8 @@ A modern React-based web application that uses Google's Gemini AI to analyze pre
 
 ### Homepage
 ![Homepage](https://github.com/Jyothish-B/MedAi/blob/main/AA/public/Screenshot%202025-08-08%20111746.png)
+![Homepage](https://github.com/Jyothish-B/MedAi/blob/main/AA/public/Screenshot%202025-08-08%20111802.png)
+
 *Modern landing page with gradient design and feature highlights*
 
 ### Prescription Assistant
@@ -14,6 +16,9 @@ A modern React-based web application that uses Google's Gemini AI to analyze pre
 
 ### AI Analysis Results
 ![AI Results](https://github.com/Jyothish-B/MedAi/blob/main/AA/public/Screenshot%202025-08-08%20112641.png)
+![AI Results](https://github.com/Jyothish-B/MedAi/blob/main/AA/public/Screenshot%202025-08-08%20112608.png)
+![AI Results](https://github.com/Jyothish-B/MedAi/blob/main/AA/public/Screenshot%202025-08-08%20112657.png)
+![AI Results](https://github.com/Jyothish-B/MedAi/blob/main/AA/public/Screenshot%202025-08-08%20112719.png)
 *Example of AI-powered prescription interpretation results*
 
 ## ✨ Features
